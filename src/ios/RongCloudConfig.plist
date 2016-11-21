@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>RyAppKey</key>
+	<string>ae6ae1e8ca611093f7e37c95</string>
+	<key>RySecret</key>
+	<string>LSuZ8tU573</string>
+	<key>RyServer</key>
+	<string>http://182.92.194.230/EIPMS/rongcloud</string>
+</dict>
+</plist>
