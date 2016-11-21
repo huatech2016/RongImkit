@@ -1,13 +1,13 @@
 #!/usr/bin/env node
-var rootdir = process.argv[2],
-    shell = require("shelljs"),
-    path = require("path"),
-    replace = require(path.join(rootdir, "hooks", "replace-text")),
-    currentProject = require(path.join(rootdir, "huatech", "current-project")),
-    projectConfig = require(path.join(rootdir, "huatech", currentProject.name, "project-config")),
-    priProjectConfig=  require(path.join(rootdir, "huatech", currentProject.lastPrepare, "project-config")),
-    plugins = projectConfig.plugins,
-    manifestFile = path.join(rootdir, "platforms/android/AndroidManifest.xml");
+var rootdir = process.argv[2];
+//     shell = require("shelljs"),
+//     path = require("path"),
+//     replace = require(path.join(rootdir, "hooks", "replace-text")),
+//     currentProject = require(path.join(rootdir, "huatech", "current-project")),
+//     projectConfig = require(path.join(rootdir, "huatech", currentProject.name, "project-config")),
+//     priProjectConfig=  require(path.join(rootdir, "huatech", currentProject.lastPrepare, "project-config")),
+//     plugins = projectConfig.plugins,
+//     manifestFile = path.join(rootdir, "platforms/android/AndroidManifest.xml");
 
 function setRongCloud() {
     //注册插件信息
