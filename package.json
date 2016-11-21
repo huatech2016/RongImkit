@@ -1,0 +1,32 @@
+{
+  "name": "cordova-plugin-rongcloud",
+  "version": "1.0.0",
+  "description": "rongcloud for cordova plugin",
+  "cordova": {
+    "id": "cordova-plugin-rongcloud",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huatech2016/RongImkit.git"
+
+  },
+  "keywords": [
+  "imkit"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0"
+    }
+  ],
+  "peerDependencies": {
+    "cordova-plugin-device": ">=1.0.0"
+  },
+  "author": "huatech",
+  "license": "MIT",
+
+  "homepage": "https://github.com/huatech2016/#readme"
+}
