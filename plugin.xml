@@ -35,7 +35,7 @@
 
         <header-file src="src/ios/Plugins/CDVMessage.h" />
         <source-file src="src/ios/Plugins/CDVMessage.m" />
-        <resource-file src="src/ios/RongCloudConfig.plist" />
+        <resource-file src="src/ios/rong-cloud-config.plist" />
 
     </platform>
 
