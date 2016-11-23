@@ -21,8 +21,10 @@
     <js-module src="www/RongCloudPlugin.js" name="RongCloudPlugin">
         <clobbers target="RongCloud" />
     </js-module>
-    <hook type="before_plugin_install" src="../../scripts/pod-install.js" />
-    <hook type="after_plugin_install" src="../../scripts/config-rongcloud.js" />
+    <hook type="before_plugin_install" src="../../scripts/ios/pod-install.js" />
+    <hook type="after_plugin_install" src="../../scripts/ios/ios-config-rongcloud.js" />
+
+
 
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
