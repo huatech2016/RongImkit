@@ -22,9 +22,9 @@
 
 #import <Cordova/CDV.h>
 #import "CDVMessage.h"
-#import "RongIMKit.h"
+#import "RongIMKit/RongIMKit.h"
 #import "AppDelegate.h"
-#import "RCIM.h"
+#import "RongIMKit/RCIM.h"
 #import <Cordova/CDVPlugin.h>
 
 #define NAVI_BAR_HEIGHT 44.0f
