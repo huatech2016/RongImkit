@@ -33,8 +33,11 @@
         </feature>
         </config-file>
 
+        <header-file src="src/ios/Plugins/ChatListViewController.h" />
         <header-file src="src/ios/Plugins/CDVMessage.h" />
+
         <source-file src="src/ios/Plugins/CDVMessage.m" />
+        <source-file src="src/ios/Plugins/ChatListViewController.m" />
         <resource-file src="src/ios/rongCloudConfig.plist" />
 
     </platform>
