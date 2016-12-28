@@ -2,18 +2,18 @@ var RongCloud = function () {
 };
 
 RongCloud.prototype.login = function (arguments, successCallback, failureCallback) {
-    return cordova.exec(successCallback, failureCallback, 'RongCloudPlugin', 'login', [arguments]);
+    return cordova.exec(successCallback, failureCallback, 'RongCloudPlugin', 'login', arguments);
 };
 
 RongCloud.prototype.openMessageList = function (arguments, successCallback, failureCallback) {
-    return cordova.exec(successCallback, failureCallback, 'RongCloudPlugin', 'openMessageList', [arguments]);
+    return cordova.exec(successCallback, failureCallback, 'RongCloudPlugin', 'openMessageList', arguments);
 };
 
 RongCloud.prototype.singlechat = function (arguments, successCallback, failureCallback) {
-    return cordova.exec(successCallback, failureCallback, 'RongCloudPlugin', 'singlechat', [arguments]);
+    return cordova.exec(successCallback, failureCallback, 'RongCloudPlugin', 'singlechat', arguments);
 };
 RongCloud.prototype.closeMessage = function (arguments, successCallback, failureCallback) {
-    return cordova.exec(successCallback, failureCallback, 'RongCloudPlugin', 'closeMessage', [arguments]);
+    return cordova.exec(successCallback, failureCallback, 'RongCloudPlugin', 'closeMessage', arguments);
 };
 
  if (!window.plugins) {
